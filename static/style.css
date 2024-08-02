@@ -415,8 +415,6 @@
   height: 100%;
   font-size: 0;
   box-sizing: border-box;
-  background: url('/static/img/home-bg.png') repeat;
-  background-size: 25% auto;
   position: relative;
 }
 .page-box{
@@ -425,8 +423,8 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background: #fff url('/static/img/home-bg.png') repeat;
-  background-size: 25% auto;
+  background: url('/static/img/home-bg.png') repeat;
+  background-size: 50% auto;
   opacity: 0;
 }
 .home-page1{

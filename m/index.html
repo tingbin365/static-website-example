@@ -12,10 +12,10 @@
       console.log(location.href)
       if (isMobile()) {
         console.log('移动端');
-        location.href = location.origin+'/m'
       } else {
         console.log('PC端');
-      }</script><title>TAQWA</title><link rel=icon href=/static/img/icon.webp type=image/x-icon><link rel=stylesheet href=/static/style.css><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJW4jsPlNKgv6jFm3B5Edp5ywgdqLWdmc" async defer=defer></script><link href=./static/css/app.2192823423bc9f1c2215de7857a3795f.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.3ad1d5771e9b13dbdad2.js></script><script type=text/javascript src=./static/js/vendor.859fda318804c561b0f4.js></script><script type=text/javascript src=./static/js/app.ab02efb6ac3711005b78.js></script></body><script language=javascript>// 此处作用为禁止页面随鼠标放大缩小
+        location.href = location.href.split('/m/')[0]
+      }</script><title>TAQWA</title><link rel=icon href=./static/img/icon.png type=image/x-icon><link rel=stylesheet href=./static/style.css><link rel=stylesheet href=./static/swiper-3.4.2.min.css><script src=./static/swiper-3.4.2.min.js></script><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJW4jsPlNKgv6jFm3B5Edp5ywgdqLWdmc" async defer=defer></script><link href=/m/static/css/app.dcf6a5448a011be7d92b258cfce0b239.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/m/static/js/manifest.0d4d594a29ea2c7b113d.js></script><script type=text/javascript src=/m/static/js/vendor.c6065d0ee89f2912ba13.js></script><script type=text/javascript src=/m/static/js/app.68b0d64f7c80b52c1ff3.js></script></body><script language=javascript>// 此处作用为禁止页面随鼠标放大缩小
     var scrollFunc=function(e){
       e=e || window.event;
       if(e.wheelDelta && event.ctrlKey){//IE/Opera/Chrome

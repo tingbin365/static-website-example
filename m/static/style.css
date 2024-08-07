@@ -1,17 +1,17 @@
 @font-face {
   font-family: BonaNova-Bold;
   font-size: 36px;
-  src: url('/static/BonaNova-Bold.ttf');
+  src: url("/static/BonaNova-Bold.ttf");
 }
 @font-face {
   font-family: BonaNova-Italic;
   font-size: 36px;
-  src: url('/static/BonaNova-Italic.ttf');
+  src: url("/static/BonaNova-Italic.ttf");
 }
 @font-face {
   font-family: BonaNova-Regular;
   font-size: 36px;
-  src: url('/static/BonaNova-Regular.ttf');
+  src: url("/static/BonaNova-Regular.ttf");
 }
 .contentBody{
   position: relative;
@@ -105,7 +105,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background: #fff url("/m/static/img/bg1.png") repeat;
+  background: #fff url("/m/static/img/bg1.webp") repeat;
   background-size: 100% auto;
 }
 .page1{
@@ -560,26 +560,26 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: url('/m/static/img/01.png') repeat;
+  background: url("/m/static/img/01.webp") repeat;
   background-size: 50% auto;
 }
 .diwen1{
-  background-image: url('/m/static/img/01.png');
+  background-image: url("/m/static/img/01.webp");
 }
 .diwen2{
-  background-image: url('/m/static/img/02.png');
+  background-image: url("/m/static/img/02.webp");
 }
 .diwen3{
-  background-image: url('/m/static/img/03.png');
+  background-image: url("/m/static/img/03.webp");
 }
 .diwen4{
-  background-image: url('/m/static/img/04.png');
+  background-image: url("/m/static/img/04.webp");
 }
 .diwen5{
-  background-image: url('/m/static/img/05.png');
+  background-image: url("/m/static/img/05.webp");
 }
 .diwen6{
-  background-image: url('/m/static/img/06.png');
+  background-image: url("/m/static/img/06.webp");
 }
 .jindai{
   position: absolute;
@@ -758,22 +758,22 @@
 }
 .img-bg7{
   height: 100%;
-  background: url('/m/static/img/05.png') repeat;
+  background: url("/m/static/img/05.webp") repeat;
   background-size: 50% auto;
 }
 .img-bg8{
   height: 100%;
-  background: url('/m/static/img/06.png') repeat;
+  background: url("/m/static/img/06.webp") repeat;
   background-size: 50% auto;
 }
 .img-bg9{
   height: 100%;
-  background: url('/m/static/img/02.png') repeat;
+  background: url("/m/static/img/02.webp") repeat;
   background-size: 50% auto;
 }
 .img-bg10{
   height: 100%;
-  background: url('/m/static/img/07.png') repeat;
+  background: url("/m/static/img/07.webp") repeat;
   background-size: 50% auto;
 }
 .job-block{
@@ -781,7 +781,7 @@
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  background: url('/m/static/img/job-bg.png') repeat;
+  background: url("/m/static/img/job-bg.webp") repeat;
   background-size: 100% auto;
   overflow: auto;
 }
@@ -818,7 +818,7 @@
   transform: rotate(180deg);
 }
 .qingzhen-block{
-  background: url('/m/static/img/qingzhen-bg.png') repeat;
+  background: url("/m/static/img/qingzhen-bg.webp") repeat;
   background-size: 100% auto;
   width: 100%;
   height: 100%;

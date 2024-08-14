@@ -416,6 +416,7 @@
   font-size: 0;
   box-sizing: border-box;
   position: relative;
+  overflow: hidden;
 }
 .page-box{
   position: absolute;
@@ -427,45 +428,24 @@
   background-size: 50% auto;
   opacity: 0;
 }
-.home-page1{
+.home-page{
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 .page-img{
   width: 100%;
   height: auto;
 }
-.home-page1 .page-scroll{
-  position: absolute;
-  bottom: -1.6%;
-  left: 45.55%;
-  width: 8.9%;
-  height: auto;
-}
-.home-page2{
-  position: absolute;
-  left: 12.5%;
-  top: 0;
-  width: 75%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.home-page2 .page-scroll{
-  position: absolute;
-  bottom: 5%;
-  left: 44.0625%;
-  width: 11.875%;
-  height: auto;
-}
 .page-img-box{
   position: relative;
-  width: 100%;
+  width: 1920px;
 }
 .page-btn2{
   position: absolute;
@@ -482,14 +462,15 @@
   width: 16%;
   height: 6%;
 }
+.home-page2{
+  left: 12.5%;
+  top: 0;
+  width: 75%;
+}
 .home-page5{
-  position: absolute;
   left: 20%;
   top: 10%;
   width: 60%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .page5{
   margin: 50px 0;
@@ -536,12 +517,17 @@
   width: 100%;
   height: auto;
 }
-.home-page5 .page-scroll1{
+.page-scroll{
   position: absolute;
-  left: 39%;
-  bottom: -10%;
-  width: 22%;
-  height: auto;
+  bottom: 5%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.page-scroll-img{
+  width: auto;
+  height: 76px;
 }
 .qingzhen-block{
   padding-top: 60px;
@@ -562,6 +548,12 @@
   overflow: hidden;
   position: relative;
 }
+.brand-block-box{
+  width: 1920px;
+  height: 100%;
+  position: relative;
+  background-color: #000;
+}
 .brand-page{
   width: 100%;
   height: 100%;
@@ -570,7 +562,7 @@
 }
 .brand-img{
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -590,6 +582,14 @@
 .img-bg10{
   background: url("/static/img/07.webp") repeat;
   background-size: 12.5% auto;
+}
+@media only screen and (max-width: 1920px) {
+  .page-img-box{
+    width: 100%;
+  }
+  .brand-block-box{
+    width: 100%;
+  }
 }
 .next-btn{
   position: absolute;

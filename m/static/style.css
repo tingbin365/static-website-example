@@ -1,17 +1,17 @@
 @font-face {
   font-family: BonaNova-Bold;
   font-size: 36px;
-  src: url("/static/BonaNova-Bold.ttf");
+  src: url("/m/static/BonaNova-Bold.ttf");
 }
 @font-face {
   font-family: BonaNova-Italic;
   font-size: 36px;
-  src: url("/static/BonaNova-Italic.ttf");
+  src: url("/m/static/BonaNova-Italic.ttf");
 }
 @font-face {
   font-family: BonaNova-Regular;
   font-size: 36px;
-  src: url("/static/BonaNova-Regular.ttf");
+  src: url("/m/static/BonaNova-Regular.ttf");
 }
 .contentBody{
   position: relative;
@@ -157,7 +157,7 @@
   margin-bottom: 20px;
 }
 .home2-text2{
-  font-family: BonaNova-Regular;
+  font-family: BonaNova-Bold;
   font-size: 12px;
   line-height: 24px;
   padding: 0 2em;
@@ -623,10 +623,11 @@
   top: 33.2%;
   left: 16px;
   width: calc(100% - 16px);
+  height: 200px;
   overflow-x: auto;
 }
 .package_img{
-  height: 53.5%;
+  height: 100%;
   width: auto;
   margin-right: 16px;
 }

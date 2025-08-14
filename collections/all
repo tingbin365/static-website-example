@@ -16,13 +16,12 @@
 <meta content="Discover the TAQWA Hajj Watch and TAQWA Quran Watch Shop! Shop online for premium quality and innovative design, perfect for your needs. Enjoy fast shipping and excellent customer service." property="og:description"/><meta content="summary_large_image" name="twitter:card"/>
 <meta content="Products" name="twitter:title"/>
 <meta content="Discover the TAQWA Hajj Watch and TAQWA Quran Watch Shop! Shop online for premium quality and innovative design, perfect for your needs. Enjoy fast shipping and excellent customer service." name="twitter:description"/>
-<script defer="defer" src="..\cdn\shop\t\13\assets\constants.js"></script>
-<script defer="defer" src="..\cdn\shop\t\13\assets\pubsub.js"></script>
-<script defer="defer" src="..\cdn\shop\t\13\assets\global.js"></script>
-<script defer="defer" src="..\cdn\shop\t\13\assets\details-disclosure.js"></script>
-<script defer="defer" src="..\cdn\shop\t\13\assets\details-modal.js"></script>
-<script defer="defer" src="..\cdn\shop\t\13\assets\search-form.js"></script><script defer="defer" src="..\cdn\shop\t\13\assets\animations.js"></script><script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta content="/66207547579/digital_wallets/dialog" id="shopify-digital-wallet" name="shopify-digital-wallet"/>
-<meta content="6a09e5d7431545d0a67da148090b26d0" name="shopify-checkout-api-token"/>
+<script src="//shop.taqwa.io/cdn/shop/t/13/assets/constants.js?v=132983761750457495441751448352" defer="defer"></script>
+<script src="//shop.taqwa.io/cdn/shop/t/13/assets/pubsub.js?v=25310214064522200911751448354" defer="defer"></script>
+<script src="//shop.taqwa.io/cdn/shop/t/13/assets/global.js?v=184345515105158409801751448352" defer="defer"></script>
+<script src="//shop.taqwa.io/cdn/shop/t/13/assets/details-disclosure.js?v=13653116266235556501751448352" defer="defer"></script>
+<script src="//shop.taqwa.io/cdn/shop/t/13/assets/details-modal.js?v=25581673532751508451751448352" defer="defer"></script>
+<script src="//shop.taqwa.io/cdn/shop/t/13/assets/search-form.js?v=133129549252120666541751448354" defer="defer"></script><script src="//shop.taqwa.io/cdn/shop/t/13/assets/animations.js?v=88693664871331136111751448352" defer="defer"></script><script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/66207547579/digital_wallets/dialog"><meta content="6a09e5d7431545d0a67da148090b26d0" name="shopify-checkout-api-token"/>
 <meta data-currency="USD" data-environment="production" data-locale="en_US" data-paypal-v4="true" data-shop-id="66207547579" data-venmo-supported="false" id="in-context-paypal-metadata"/>
 <link href="/collections/all.atom" rel="alternate" title="Feed" type="application/atom+xml">
 <script async="async" src="..\checkouts\internal\preloads.js"></script>
@@ -406,8 +405,8 @@ Shopify.routes.root = "/";</script>
         }
       }
     </style>
-<link href="..\cdn\shop\t\13\assets\base.css" media="all" rel="stylesheet" type="text/css">
-<link href="..\cdn\shop\t\13\assets\component-cart-items.css" media="print" onload="this.media='all'" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://shop.taqwa.io/cdn/shop/t/13/assets/base.css?v=1329837617">
+    <link rel="stylesheet" href="https://shop.taqwa.io/cdn/shop/t/13/assets/component-localization-form.css?v=1329837617">
 <link as="font" crossorigin="" href="//shop.taqwa.io/cdn/fonts/figtree/figtree_n5.3b6b7df38aa5986536945796e1f947445832047c.woff2?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&amp;h2=dGFxd2EuaW8&amp;hmac=b048ea25a21412bb54ed9c358ea62478e7fda3072edddf4ac28ade56c7580d57" rel="preload" type="font/woff2"/>
 <link as="font" crossorigin="" href="//shop.taqwa.io/cdn/fonts/oswald/oswald_n5.8ad4910bfdb43e150746ef7aa67f3553e3abe8e2.woff2?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&amp;h2=dGFxd2EuaW8&amp;hmac=409a81285e4aacc06d2d1de96901aefc7fb1cf80f6d374c5b81eed995d4e0e23" rel="preload" type="font/woff2"/>
 <link href="..\cdn\shop\t\13\assets\component-localization-form.css" media="all" rel="stylesheet" type="text/css">

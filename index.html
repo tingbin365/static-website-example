@@ -42,11 +42,11 @@ Shopify.routes.root = "/";</script>
 <script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
 <script id="shop-js-analytics" type="application/json">{"pageType":"index"}</script>
 <script async="async" defer="defer" onload='window.Shopify.SignInWithShop?.initShopCartSync?.({"fedCMEnabled":true,"windoidEnabled":true});
-' src="/cdn/shopifycloud/shop-js/client.js"></script>
+' src="https://shop.taqwa.io/cdn/shopifycloud/shop-js/client.js"></script>
 <script id="__st">var __st={"a":66207547579,"offset":28800,"reqid":"4632af97-e9c6-4d94-a865-6374b406c9c3-1754639665","pageurl":"shop.taqwa.io\/","u":"0f7aa0a9ffff","p":"home"};</script>
 <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
 <script id="captcha-bootstrap">!function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.form)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='form_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('form repopulation failed',{error:o})}}const l='form_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_forms',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.2.iife.js',D={infoText:'Protected by hCaptcha',privacyText:'Privacy',termsText:'Terms'},(t,e,n)=>{const o=w[L][v],c=o.bindForm;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLFormElement?e:e&&e.form},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new FormData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist form',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('form_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!0,!0)}();</script>
-<script crossorigin="anonymous" data-source-attribution="shopify.loadfeatures" defer="defer" integrity="sha256-52AcMU7V7pcBOXWImdc/TAGTFKeNjmkeM1Pvks/DTgc=" src="cdn/shopifycloud/storefront/assets/storefront/load_feature-81c60534.js"></script>
+<script crossorigin="anonymous" data-source-attribution="shopify.loadfeatures" defer="defer" integrity="sha256-52AcMU7V7pcBOXWImdc/TAGTFKeNjmkeM1Pvks/DTgc=" src="https://shop.taqwa.io/cdn/shopifycloud/storefront/assets/storefront/load_feature-81c60534.jscdn/shopifycloud/storefront/assets/storefront/load_feature-81c60534.js"></script>
 <script data-source-attribution="shopify.dynamic_checkout.dynamic.init">var Shopify=Shopify||{};Shopify.PaymentButton=Shopify.PaymentButton||{isStorefrontPortableWallets:!0,init:function(){window.Shopify.PaymentButton.init=function(){};var t=document.createElement("script");t.src="https://shop.taqwa.io/cdn/shopifycloud/portable-wallets/latest/portable-wallets.en.js",t.type="module",document.head.appendChild(t)}};
 </script>
 <script data-source-attribution="shopify.dynamic_checkout.buyer_consent">
@@ -55,7 +55,7 @@ Shopify.routes.root = "/";</script>
 <script data-source-attribution="shopify.dynamic_checkout.cart.bootstrap">document.addEventListener("DOMContentLoaded",(function(){function t(){return document.querySelector("shopify-accelerated-checkout-cart, shopify-accelerated-checkout")}if(t())Shopify.PaymentButton.init();else{new MutationObserver((function(e,n){t()&&(Shopify.PaymentButton.init(),n.disconnect())})).observe(document.body,{childList:!0,subtree:!0})}}));
 </script>
 <script async="" id="scb4127" src="cdn/shopifycloud/privacy-banner/storefront-banner.js" type="text/javascript"></script><script data-sections="header" defer="defer" id="sections-script" src="https://shop.taqwa.io/cdn/shop/t/13/compiled_assets/scripts.js?543="></script>
-<link crossorigin="anonymous" href="cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css" media="screen" rel="stylesheet"/>
+<link crossorigin="anonymous" href="https://shop.taqwa.io/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css" media="screen" rel="stylesheet"/>
 <style id="shopify-accelerated-checkout-cart">
         #shopify-buyer-consent {
   margin-top: 1em;
@@ -88,8 +88,8 @@ Shopify.routes.root = "/";</script>
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-  src: url("//shop.taqwa.io/cdn/fonts/figtree/figtree_n5.3b6b7df38aa5986536945796e1f947445832047c.woff2?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=b048ea25a21412bb54ed9c358ea62478e7fda3072edddf4ac28ade56c7580d57") format("woff2"),
-       url("//shop.taqwa.io/cdn/fonts/figtree/figtree_n5.f26bf6dcae278b0ed902605f6605fa3338e81dab.woff?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=014295edf2c30a7c3074ec01509c71cdc9af63824396918715e74da28814c6e3") format("woff");
+  src: url("https:https://shop.taqwa.io/fonts/figtree/figtree_n5.3b6b7df38aa5986536945796e1f947445832047c.woff2?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=b048ea25a21412bb54ed9c358ea62478e7fda3072edddf4ac28ade56c7580d57") format("woff2"),
+       url("https:https://shop.taqwa.io/fonts/figtree/figtree_n5.f26bf6dcae278b0ed902605f6605fa3338e81dab.woff?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=014295edf2c30a7c3074ec01509c71cdc9af63824396918715e74da28814c6e3") format("woff");
 }
 
       @font-face {
@@ -97,8 +97,8 @@ Shopify.routes.root = "/";</script>
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-  src: url("//shop.taqwa.io/cdn/fonts/figtree/figtree_n7.2fd9bfe01586148e644724096c9d75e8c7a90e55.woff2?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=0ca3bd577e98fa3015e578581d72eb63620436e476f75e46ff3cebac12f39cd5") format("woff2"),
-       url("//shop.taqwa.io/cdn/fonts/figtree/figtree_n7.ea05de92d862f9594794ab281c4c3a67501ef5fc.woff?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=924823a49499cfe460c9fc5ae6ccf64e894160afe3682c9966e661aa8aa3978d") format("woff");
+  src: url("https:https://shop.taqwa.io/fonts/figtree/figtree_n7.2fd9bfe01586148e644724096c9d75e8c7a90e55.woff2?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=0ca3bd577e98fa3015e578581d72eb63620436e476f75e46ff3cebac12f39cd5") format("woff2"),
+       url("https://shop.taqwa.io/fonts/figtree/figtree_n7.ea05de92d862f9594794ab281c4c3a67501ef5fc.woff?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=924823a49499cfe460c9fc5ae6ccf64e894160afe3682c9966e661aa8aa3978d") format("woff");
 }
 
       @font-face {
@@ -106,8 +106,8 @@ Shopify.routes.root = "/";</script>
   font-weight: 500;
   font-style: italic;
   font-display: swap;
-  src: url("//shop.taqwa.io/cdn/fonts/figtree/figtree_i5.969396f679a62854cf82dbf67acc5721e41351f0.woff2?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=b53da76818900993df987487bac03ce58389cb5c7a16c5adcbb5f9b93a1ee361") format("woff2"),
-       url("//shop.taqwa.io/cdn/fonts/figtree/figtree_i5.93bc1cad6c73ca9815f9777c49176dfc9d2890dd.woff?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=8ae87259dfcb927dce9252ba289df0b0adfbe767429e2f2b61ed2271835f3770") format("woff");
+  src: url("https://shop.taqwa.io/fonts/figtree/figtree_i5.969396f679a62854cf82dbf67acc5721e41351f0.woff2?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=b53da76818900993df987487bac03ce58389cb5c7a16c5adcbb5f9b93a1ee361") format("woff2"),
+       url("https://shop.taqwa.io/fonts/figtree/figtree_i5.93bc1cad6c73ca9815f9777c49176dfc9d2890dd.woff?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=8ae87259dfcb927dce9252ba289df0b0adfbe767429e2f2b61ed2271835f3770") format("woff");
 }
 
       @font-face {
@@ -115,8 +115,8 @@ Shopify.routes.root = "/";</script>
   font-weight: 700;
   font-style: italic;
   font-display: swap;
-  src: url("//shop.taqwa.io/cdn/fonts/figtree/figtree_i7.06add7096a6f2ab742e09ec7e498115904eda1fe.woff2?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=ce549873d3a51e9b5586d451910b2775017867baf108b9a16427bb80af370dcb") format("woff2"),
-       url("//shop.taqwa.io/cdn/fonts/figtree/figtree_i7.ee584b5fcaccdbb5518c0228158941f8df81b101.woff?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=aaeb66be97fbe10516c4cec1ec3b05341232fe2e9edc72960ee54453964245a4") format("woff");
+  src: url("https://shop.taqwa.io/fonts/figtree/figtree_i7.06add7096a6f2ab742e09ec7e498115904eda1fe.woff2?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=ce549873d3a51e9b5586d451910b2775017867baf108b9a16427bb80af370dcb") format("woff2"),
+       url("https://shop.taqwa.io/fonts/figtree/figtree_i7.ee584b5fcaccdbb5518c0228158941f8df81b101.woff?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=aaeb66be97fbe10516c4cec1ec3b05341232fe2e9edc72960ee54453964245a4") format("woff");
 }
 
       @font-face {
@@ -124,8 +124,8 @@ Shopify.routes.root = "/";</script>
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-  src: url("//shop.taqwa.io/cdn/fonts/oswald/oswald_n5.8ad4910bfdb43e150746ef7aa67f3553e3abe8e2.woff2?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=409a81285e4aacc06d2d1de96901aefc7fb1cf80f6d374c5b81eed995d4e0e23") format("woff2"),
-       url("//shop.taqwa.io/cdn/fonts/oswald/oswald_n5.93ee52108163c48c91111cf33b0a57021467b66e.woff?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=a34a76b179b1a390a7797b7b19d76130a263d66079fbe8525124a6bf124894d7") format("woff");
+  src: url("https://shop.taqwa.io/fonts/oswald/oswald_n5.8ad4910bfdb43e150746ef7aa67f3553e3abe8e2.woff2?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=409a81285e4aacc06d2d1de96901aefc7fb1cf80f6d374c5b81eed995d4e0e23") format("woff2"),
+       url("https://shop.taqwa.io/fonts/oswald/oswald_n5.93ee52108163c48c91111cf33b0a57021467b66e.woff?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=dGFxd2EuaW8&hmac=a34a76b179b1a390a7797b7b19d76130a263d66079fbe8525124a6bf124894d7") format("woff");
 }
 
 
@@ -408,8 +408,8 @@ Shopify.routes.root = "/";</script>
     </style>
 <link href="cdn/shop/t/13/assets/base.css" media="all" rel="stylesheet" type="text/css">
 <link href="cdn/shop/t/13/assets/component-cart-items.css" media="print" onload="this.media='all'" rel="stylesheet"/>
-<link as="font" crossorigin="" href="//shop.taqwa.io/cdn/fonts/figtree/figtree_n5.3b6b7df38aa5986536945796e1f947445832047c.woff2?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&amp;h2=dGFxd2EuaW8&amp;hmac=b048ea25a21412bb54ed9c358ea62478e7fda3072edddf4ac28ade56c7580d57" rel="preload" type="font/woff2"/>
-<link as="font" crossorigin="" href="//shop.taqwa.io/cdn/fonts/oswald/oswald_n5.8ad4910bfdb43e150746ef7aa67f3553e3abe8e2.woff2?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&amp;h2=dGFxd2EuaW8&amp;hmac=409a81285e4aacc06d2d1de96901aefc7fb1cf80f6d374c5b81eed995d4e0e23" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="https://shop.taqwa.io/fonts/figtree/figtree_n5.3b6b7df38aa5986536945796e1f947445832047c.woff2?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&amp;h2=dGFxd2EuaW8&amp;hmac=b048ea25a21412bb54ed9c358ea62478e7fda3072edddf4ac28ade56c7580d57" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="https://shop.taqwa.io/fonts/oswald/oswald_n5.8ad4910bfdb43e150746ef7aa67f3553e3abe8e2.woff2?h1=eWJ1N3J3LXNkLmFjY291bnQubXlzaG9waWZ5LmNvbQ&amp;h2=dGFxd2EuaW8&amp;hmac=409a81285e4aacc06d2d1de96901aefc7fb1cf80f6d374c5b81eed995d4e0e23" rel="preload" type="font/woff2"/>
 <link href="cdn/shop/t/13/assets/component-localization-form.css" media="all" rel="stylesheet" type="text/css">
 <script defer="defer" src="https://shop.taqwa.io/cdn/shop/t/13/assets/localization-form.js?v=144176611646395275351751448354"></script><link href="cdn/shop/t/13/assets/component-predictive-search.css" media="print" onload="this.media='all'" rel="stylesheet"/><script>
       if (Shopify.designMode) {
@@ -443,15 +443,15 @@ Shopify.routes.root = "/";</script>
   window.PAGEFLY_CRO['GA4'] = { enabled: false}
 </script>
 <!-- END app snippet -->
-<script defer="defer" src="extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-helper.js"></script>
-<script defer="defer" src="extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-general-helper.js"></script>
-<script defer="defer" src="extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-snap-slider.js"></script>
-<script defer="defer" src="extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-slideshow-v3.js"></script>
-<script defer="defer" src="extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-slideshow-v4.js"></script>
-<script defer="defer" src="extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-glider.js"></script>
-<script defer="defer" src="extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-slideshow-v1-v2.js"></script>
-<script defer="defer" src="extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-product-media.js"></script>
-<script defer="defer" src="extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-product.js"></script>
+<script defer="defer" src="https://shop.taqwa.io/extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-helper.js"></script>
+<script defer="defer" src="https://shop.taqwa.io/extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-general-helper.js"></script>
+<script defer="defer" src="https://shop.taqwa.io/extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-snap-slider.js"></script>
+<script defer="defer" src="https://shop.taqwa.io/extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-slideshow-v3.js"></script>
+<script defer="defer" src="https://shop.taqwa.io/extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-slideshow-v4.js"></script>
+<script defer="defer" src="https://shop.taqwa.io/extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-glider.js"></script>
+<script defer="defer" src="https://shop.taqwa.io/extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-slideshow-v1-v2.js"></script>
+<script defer="defer" src="https://shop.taqwa.io/extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-product-media.js"></script>
+<script defer="defer" src="https://shop.taqwa.io/extensions/ee5d2842-492c-4e62-9359-77a59bc7247b/pagefly-page-builder-173/assets/pagefly-product.js"></script>
 <script id="pagefly-helper-data" type="application/json">
   {
     "page_optimization": {
@@ -637,7 +637,7 @@ Shopify.routes.root = "/";</script>
         first.parentNode.insertBefore(scriptFallback, first);
       };
       script.async = true;
-      script.src = '//shop.taqwa.io/cdn/s/trekkie.storefront.5a4f78eb26ea594ba1b5d72f179d68114c7cf8ca.min.js';
+      script.src = 'https://shop.taqwa.io/cdn/s/trekkie.storefront.5a4f78eb26ea594ba1b5d72f179d68114c7cf8ca.min.js';
       first.parentNode.insertBefore(script, first);
     };
     trekkie.load(
@@ -669,7 +669,7 @@ Shopify.routes.root = "/";</script>
 
         var eventsListenerScript = document.createElement('script');
         eventsListenerScript.async = true;
-        eventsListenerScript.src = "//shop.taqwa.io/cdn/shopifycloud/storefront/assets/shop_events_listener-8675b082.js";
+        eventsListenerScript.src = "https://shop.taqwa.io/cdn/shopifycloud/storefront/assets/shop_events_listener-8675b082.js";
         document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
 
 })();</script>
@@ -865,7 +865,7 @@ Shopify.routes.root = "/";</script>
 </details>
 </header-drawer>
 <h1 class="header__heading"><a class="header__heading-link link link--text focus-inset" href="index.html"><div class="header__heading-logo-wrapper">
-<img alt="TAQWA SHOP" class="header__heading-logo motion-reduce" height="32.35294117647059" loading="eager" sizes="(max-width: 200px) 50vw, 100px" src="cdn/shop/files/LOGO.svg" srcset="//shop.taqwa.io/cdn/shop/files/LOGO.svg?v=1751540342&amp;width=100 100w, //shop.taqwa.io/cdn/shop/files/LOGO.svg?v=1751540342&amp;width=150 150w, //shop.taqwa.io/cdn/shop/files/LOGO.svg?v=1751540342&amp;width=200 200w" width="100"/>
+<img alt="TAQWA SHOP" class="header__heading-logo motion-reduce" height="32.35294117647059" loading="eager" sizes="(max-width: 200px) 50vw, 100px" src="https://shop.taqwa.io/cdn/shop/files/LOGO.svg" srcset="//shop.taqwa.io/cdn/shop/files/LOGO.svg?v=1751540342&amp;width=100 100w, //shop.taqwa.io/cdn/shop/files/LOGO.svg?v=1751540342&amp;width=150 150w, //shop.taqwa.io/cdn/shop/files/LOGO.svg?v=1751540342&amp;width=200 200w" width="100"/>
 </div></a></h1>
 <nav class="header__inline-menu">
 <ul class="list-menu list-menu--inline" role="list"><li><a aria-current="page" class="header__menu-item list-menu__item link link--text focus-inset" href="index.html" id="HeaderMenu-home">
@@ -1100,7 +1100,7 @@ Item added to your cart
       </style>
 <div aria-label="1 of 2" aria-roledescription="Slide" class="slideshow__slide grid__item grid--1-col slider__slide" id="Slide-template--17375789613243__slideshow_PckCiE-1" role="group" tabindex="-1">
 <div class="slideshow__media banner__media media">
-<img alt="" fetchpriority="high" height="1872" sizes="100vw" src="cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png" srcset="//shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=375 375w, //shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=550 550w, //shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=750 750w, //shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=1100 1100w, //shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=1500 1500w, //shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=1780 1780w, //shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=2000 2000w, //shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=3000 3000w, //shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=3840 3840w"/>
+<img alt="" fetchpriority="high" height="1872" sizes="100vw" src="https://shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png" srcset="//shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=375 375w, //shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=550 550w, //shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=750 750w, //shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=1100 1100w, //shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=1500 1500w, //shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=1780 1780w, //shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=2000 2000w, //shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=3000 3000w, //shop.taqwa.io/cdn/shop/files/TAQWA-RING_face5785-44f6-49b8-92d8-6b40f6270cac.png?v=1751555182&amp;width=3840 3840w"/>
 </div>
 <div class="slideshow__text-wrapper banner__content banner__content--top-left page-width banner--desktop-transparent scroll-trigger animate--slide-in">
 <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-scheme-2 gradient slideshow__text--left slideshow__text-mobile--center"><h2 class="banner__heading inline-richtext h0">
@@ -1149,7 +1149,7 @@ Item added to your cart
 <deferred-media class="video-section__media deferred-media gradient global-media-settings media-fit-cover scroll-trigger animate--slide-in" data-media-id="29895188414651" style="--ratio-percent: 56.25%;">
 <button aria-label="Load video: " class="video-section__poster media deferred-media__poster media--landscape" id="Deferred-Poster-Modal-29895188414651" type="button"><img alt="Load video: " height="2160" sizes="(min-width: 1600px) 1500px, (min-width: 750px)
     calc(100vw - 10rem), 100vw
-" src="cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg" srcset="//shop.taqwa.io/cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg?v=1751708065&amp;width=375 375w, //shop.taqwa.io/cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg?v=1751708065&amp;width=750 750w, //shop.taqwa.io/cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg?v=1751708065&amp;width=1100 1100w, //shop.taqwa.io/cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg?v=1751708065&amp;width=1500 1500w, //shop.taqwa.io/cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg?v=1751708065&amp;width=1780 1780w, //shop.taqwa.io/cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg?v=1751708065&amp;width=2000 2000w, //shop.taqwa.io/cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg?v=1751708065&amp;width=3000 3000w, //shop.taqwa.io/cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg?v=1751708065&amp;width=3840 3840w" width="3840"/>
+" src="https://shop.taqwa.io/cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg" srcset="//shop.taqwa.io/cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg?v=1751708065&amp;width=375 375w, //shop.taqwa.io/cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg?v=1751708065&amp;width=750 750w, //shop.taqwa.io/cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg?v=1751708065&amp;width=1100 1100w, //shop.taqwa.io/cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg?v=1751708065&amp;width=1500 1500w, //shop.taqwa.io/cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg?v=1751708065&amp;width=1780 1780w, //shop.taqwa.io/cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg?v=1751708065&amp;width=2000 2000w, //shop.taqwa.io/cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg?v=1751708065&amp;width=3000 3000w, //shop.taqwa.io/cdn/shop/files/preview_images/136e6e80d8ea41f3ab6c19b39e08272e.thumbnail.0000000000.jpg?v=1751708065&amp;width=3840 3840w" width="3840"/>
 <span class="deferred-media__poster-button motion-reduce">
 <span class="svg-wrapper"><svg class="icon icon-play" fill="none" viewbox="0 0 10 14" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M1.482.815A1 1 0 0 0 0 1.69v10.517a1 1 0 0 0 1.525.851L10.54 7.5a1 1 0 0 0-.043-1.728z" fill="currentColor" fill-rule="evenodd"></path></svg>
 </span>
